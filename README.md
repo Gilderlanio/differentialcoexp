@@ -1,2 +1,1 @@
-# differentialcoexp
-Differential co-expression analysis in complex diseases
+# Differential co-expression analysis in Alzheimer's Disease.
