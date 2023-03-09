@@ -1,0 +1,95 @@
+---
+title: "diffcoexp"
+author: "Gilderlanio Santana de Araújo"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+
+library("diffcoexp")
+library("ggpubr")
+library("pheatmap")
+library("dplyr")
+
+```
+
+## Differential gene co-expression in Alzheimer's Disease.
+
+```{r, echo=FALSE, message=FALSE, warning=F}
+# Loading expression data for differential co-expression data.
+# After co-expression analysis and QC, the input for differential co-expression is composed of 214 AD samples and 69 neuronal control.
+
+expression <- as.matrix(read.table("counts/GSE125583_DiffCoexpInput.txt", header = T, sep = "\t"))
+control <- expression[,215:283]
+case <- expression[,1:214]
+```
+
+
+```{r, echo=FALSE, message=FALSE, warning=F}
+# To perfrom differential gene co-expression analysis.
+res = diffcoexp(exprs.1 = control, exprs.2 = case, r.method = "spearman", q.method = "fdr", rth = 0.8, qth = 0.05)
+dcgs <- res$DCGs[,c("Gene", "DCLs", "p", "q")]
+dcls <- res$DCLs
+
+dcls$p.1 <- NULL
+dcls$p.2 <- NULL
+dcls$cor.1 <- NULL
+dcls$cor.2 <- NULL
+dcls$q.1 <- NULL
+dcls$q.2 <- NULL
+dcls$type <- NULL
+dcls
+
+```
+
+```{r, echo=FALSE, message=FALSE, warning=F}
+# Bootstrap (100x) of differential gene co-expression analysis. Each interation sample 70% if samples to perform diffcoexp. The dataframe dcgs.bst stores all DCGs for each iteration.
+
+dcgs.bst <- data.frame(Run = numeric(), Gene = character())
+
+iterations = 100
+for (i in 1:iterations) {
+  control.aux <- t(sample_n(as.data.frame( t(control) ), 69 * 0.7 ))
+  case.aux <- t(sample_n(as.data.frame( t(case) ), 214 * 0.7 ))
+  res = diffcoexp(exprs.1 = control.aux, exprs.2 = case.aux, r.method = "spearman", q.method = "fdr", rth = 0.8, qth = 0.05)
+  dcgs.aux <- res$DCGs
+  dcgs.aux$Run <- i
+  dcgs.aux <- dcgs.aux[, c("Run", "Gene")]
+  if (nrow(dcgs.aux) > 0) {
+    dcgs.bst <- rbind(dcgs.bst, dcgs.aux)
+  }
+}
+
+# After bootstrap, we calculate the accuracy for each DCG, which were identified by diffcoexp using all samples to identify variation in co-expression.
+
+acc <- as.data.frame(table(dcgs.bst$Gene))
+acc <- acc[acc$Var1 %in% c("FAM153B", "CYP2C8", "CKMT1B"), ]
+acc$Freq <- acc$Freq / 100
+
+library("ggplot2")
+library("ggpubr")
+
+ggbarplot(acc, x = "Var1", y = "Freq", xlab = "Differential co-expressed gene", 
+                  ylab = "Stability", ggtheme = theme_bw(),
+                  fill = "Var1", label = T, lab.pos = "out", ylim = c(0, 1)) + rremove("legend")
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE, message=FALSE, warning=F}
+
+# Dataframe to add annotations of AD status to heatmap plots.
+my_sample_col <- data.frame(sample = rep(c("AD", "Control"), c(214, 69)))
+row.names(my_sample_col) <- colnames(expression)
+
+# Plot heatmap with all co-expressed genes.
+pheatmap(expression, cluster_rows = T, cluster_cols = T, scale = "row", clustering_distance_rows = "euclidean", clustering_distance_cols = "euclidean", show_rownames = F, show_colnames = F, annotation_col = my_sample_col)
+
+# Plot heatmap with genes in DCLs.
+dcls.expression <- expression[rownames(expression) %in% union(dcls$Gene.1, dcls$Gene.2),]
+pheatmap(dcls.expression, cluster_rows = T, cluster_cols = T, scale = "row", clustering_distance_rows = "euclidean", clustering_distance_cols = "euclidean", show_rownames = F, show_colnames = F, annotation_col = my_sample_col)
+```
