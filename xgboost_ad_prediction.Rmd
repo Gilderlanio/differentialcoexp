@@ -48,12 +48,18 @@ expression$class <- NULL
 
 # To extract gene expression for dcgs, hubs, and diffcoexp network 
 
-dcg.expression <- expression[,c("FAM153B", "CYP2C8", "CKMT1B")]
-hub.expression <- expression[,c("PKN2", "FNDC3A", "NRIP1", "TMTC2")]
-dcg.hub.expression <- expression[,c("FAM153B", "CYP2C8", "CKMT1B", "PKN2",
-                                    "FNDC3A", "NRIP1", "TMTC2")]
+dcgs <- c("FAM153B", "CYP2C8", "CKMT1B")
+hubs <- c("PKN2", "FNDC3A", "NRIP1", "TMTC2")
+dcgs.hubs <- c("FAM153B", "CYP2C8", "CKMT1B", "PKN2", "FNDC3A", "NRIP1", "TMTC2")
 dcls <- read.csv("results/DCL_GSE12.txt", sep = "\t")
-net.expression <- expression[,union(dcls$Gene.1, dcls$Gene.2)]
+
+all.genes <- Reduce(union, list(dcgs, hubs, dcls))
+
+dcls <- union(dcls$Gene.1, dcls$Gene.2)
+dcg.expression <- expression[, dcgs]
+hub.expression <- expression[, hubs]
+dcg.hub.expression <- expression[, dcgs.hubs]
+net.expression <- expression[, dcls]
 
 # To perform XBoost cross-validation for dcgs, hubs, and diffcoexp network 
 
@@ -112,6 +118,18 @@ p <- ggscatter(cv.all, x = "test_error_mean",
 ggpar(p, xlim =c(0.0, 0.35), ylim=c(0, 1))
 
 ```
+
+```{r}
+
+gwas.catalog <- read.csv("gwascatalog/gwas_catalog_v1.0-associations_e109_r2023-03-03.txt", sep = "\t", header = F)
+gwas.catalog <- na.omit(gwas.catalog)
+gwas.catalog <- gwas.catalog[gwas.catalog$V7 %in% all.genes,]
+gwas.catalog <- gwas.catalog[gwas.catalog$V10 <= 1e-8,]
+gwas.catalog <- gwas.catalog[gwas.catalog$V9 != "?",]
+write.table(gwas.catalog, file = "gwascatalog/OverlapDiffCoexpGwasCatalog.txt", sep = "\t", row.names = F, col.names = F, quote = F)
+
+```
+
 
 
 

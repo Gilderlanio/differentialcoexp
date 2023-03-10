@@ -1,0 +1,295 @@
+34594039	Sakaue S, 2021-09-30	hypothyroidism	2	191099907	2q32.2	STAT4	rs7574865	G	2e-29	0.1321
+30423114	Laufer VA, 2018-11-13	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	6e-09	0.15935
+30423114	Laufer VA, 2018-11-13	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	6e-12	0.12382
+36333501	Ishigaki K, 2022-11-04	rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	2	191079016	2q32.2	STAT4	rs11889341	T	2e-09	1.1468282
+34594039	Sakaue S, 2021-09-30	alanine aminotransferase levels	21	14966851	21q11.2	NRIP1	rs2229742	C	5e-09	0.0215
+35361970	Okbay A, 2022-03-31	educational attainment	2	232999747	2q37.1	NGEF	rs12470285	T	1e-08	0.00818806
+28314753	Terao C, 2017-03-17	systemic sclerosis	2	191099907	2q32.2	STAT4	rs7574865	T	5e-10	0.332
+21408207	Chung SA, 2011-03-03	systemic lupus erythematosus	2	191099907	2q32.2	STAT4	rs7574865	T	2e-20	1.77
+32327693	Oskarsson GR, 2020-04-23	hemoglobin levels	21	14966851	21q11.2	NRIP1	rs2229742	C	1e-11	0.024
+34594039	Sakaue S, 2021-09-30	monocyte count	21	15005362	21q21.1	NRIP1	rs139790892	GCCCCCC	2e-23	0.0323
+23291587	Kirino Y, 2013-01-06	behcet's disease	2	191145762	2q32.3	STAT4	rs7574070	A	1e-09	1.27
+19838195	Gateva V, 2009-11-01	systemic lupus erythematosus	2	191099907	2q32.2	STAT4	rs7574865	T	1e-41	1.57
+34910505	van der Meer D, 2021-12-15	vertex-wise sulcal depth	12	83130078	12q21.31	TMTC2	rs11115606	T	4e-09	5.91
+33462484	Sinnott-Armstrong N, 2021-01-18	alanine aminotransferase levels	21	14966851	21q11.2	NRIP1	rs2229742	C	1e-09	0.024
+36333501	Ishigaki K, 2022-11-04	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	3e-13	1.1370077
+34594039	Sakaue S, 2021-09-30	medication use (thyroid preparations)	2	191105394	2q32.3	STAT4	rs7582694	G	1e-42	0.1381
+30038396	Lee JJ, 2018-07-23	cognitive performance	11	61546053	11q12.2	SYT7	rs77128898	T	2e-09	0.0463
+35974141	Lahti J, 2022-08-16	verbal short term memory	5	19517941	5p14.3	CDH18	rs425724	C	3e-09	5.911
+36477530	Saunders GRB, 2022-12-07	drinks per week	5	19981265	5p14.3	CDH18	rs13165059	T	5e-20	0.00766
+27841878	Hoffmann TJ, 2016-11-14	systolic blood pressure	1	88815846	1p22.2	PKN2	rs786919	A	1e-11	0.262
+33462484	Sinnott-Armstrong N, 2021-01-18	total bilirubin levels	2	232931542	2q37.1	NGEF	rs79984888	A	2e-13	0.0375
+32352494	Han X, 2020-04-30	spherical equivalent	21	14966851	21q11.2	NRIP1	rs2229742	G	4e-14	0.14
+36477530	Saunders GRB, 2022-12-07	drinks per week	5	19932577	5p14.3	CDH18	rs9986203	T	7e-17	0.00713
+23273568	Yang W, 2012-12-27	systemic lupus erythematosus	2	191099907	2q32.2	STAT4	rs7574865	T	1e-21	1.63
+32193382	Cole JB, 2020-03-19	principal component-derived dietary pattern 3	22	38426516	22q13.1	KCNJ4	rs2269608	C	2e-09	0.0253315
+34594039	Sakaue S, 2021-09-30	hemoglobin a1c levels	8	102065562	8q22.3	NCALD	rs636089	C	1e-09	0.0126
+34594039	Sakaue S, 2021-09-30	rheumatoid arthritis	2	191090464	2q32.2	STAT4	rs10553577	T	4e-09	0.12793025
+32888493	Chen MH, 2020-09-01	white blood cell count	21	15012619	21q21.1	NRIP1	rs28574812	G	3e-10	0.016041
+30072576	Emilsson V, 2018-08-02	blood protein levels	11	20930691	11p15.1	NELL1	rs16907058	G	2e-75	0.9886538
+32888493	Chen MH, 2020-09-01	platelet count	21	14998781	21q11.2	NRIP1	rs1997577	T	3e-13	0.018537
+36477530	Saunders GRB, 2022-12-07	drinks per week	12	108943637	12q24.11	SVOP	rs4075292	T	6e-12	0.0243
+19838193	Han JW, 2009-10-18	systemic lupus erythematosus	2	191099907	2q32.2	STAT4	rs7574865	A	5e-42	1.51
+36224396	Yengo L, 2022-10-12	height	1	88803657	1p22.2	PKN2	rs9428015	G	1e-300	0.0261
+35393526	Montasser ME, 2022-04-07	estriol levels	11	61565578	11q12.2	SYT7	rs78765146	C	1e-09	0.8393776
+24097066	Li Y, 2013-10-06	sjögren's syndrome	2	191071078	2q32.2	STAT4	rs10168266	T	2e-17	1.44
+36224396	Yengo L, 2022-10-12	height	2	232927399	2q37.1	NGEF	rs2675960	T	3e-81	0.0119
+34321204	Harrison S, 2021-07-28	free testosterone levels	19	41997241	19q13.2	ATP1A3	rs140433255	A	8e-09	0
+34594039	Sakaue S, 2021-09-30	lymphocyte count	21	15005362	21q21.1	NRIP1	rs139790892	GCCCCCC	3e-09	0.0196
+34594039	Sakaue S, 2021-09-30	hematocrit	1	88803657	1p22.2	PKN2	rs9428015	A	3e-12	0.0121
+23143596	Eyre S, 2012-12-01	rheumatoid arthritis (acpa-positive)	2	191068528	2q32.2	STAT4	rs13426947	A	8e-09	1.1663
+35078996	Gudjonsson A, 2022-01-25	serum levels of protein fam189a2	11	20937848	11p15.1	NELL1	rs8176786	T	4e-122	0.927531
+30038396	Lee JJ, 2018-07-23	self-reported math ability (mtag)	2	232887841	2q37.1	NGEF	rs2250660	C	7e-14	0.0134
+29875488	Sun BB, 2018-06-06	protein kinase c-binding protein nell1 levels (nell1.6544.33.3)	11	20933724	11p15.1	NELL1	rs61652119	A	1e-89	1.11
+36477530	Saunders GRB, 2022-12-07	smoking initiation	1	49286320	1p33	AGBL4	rs241464	C	2e-36	0.0155
+32888494	Vuckovic D, 2020-09-01	platelet distribution width	21	14999545	21q11.2	NRIP1	rs397712573	TA	3e-33	0.028647993
+35078996	Gudjonsson A, 2022-01-25	serum levels of protein fam189a2	11	21072992	11p15.1	NELL1	rs72948166	G	7e-13	0.605745
+23128233	Jostins L, 2012-11-01	inflammatory bowel disease	2	191066738	2q32.2	STAT4	rs1517352	C	3e-11	1.077
+26426971	Winkler TW, 2015-10-01	body mass index	1	49124175	1p33	AGBL4	rs657452	A	2e-11	0.018655034
+34594039	Sakaue S, 2021-09-30	hashimoto thyroiditis	2	191079016	2q32.2	STAT4	rs11889341	T	7e-11	0.1245
+34594039	Sakaue S, 2021-09-30	weight	8	101828803	8q22.3	NCALD	rs7827941	A	8e-10	0.0119
+32352494	Han X, 2020-04-30	spherical equivalent	11	18729494	11p15.1	PTPN5	rs1550870	T	6e-10	0.07
+23143596	Eyre S, 2012-12-01	rheumatoid arthritis	2	191068528	2q32.2	STAT4	rs13426947	A	7e-10	1.1533
+36477530	Saunders GRB, 2022-12-07	smoking initiation	1	49827749	1p33	AGBL4	rs12128108	T	2e-54	0.0143
+29617998	Gao XR, 2018-03-28	intraocular pressure	1	88805891	1p22.2	PKN2	rs786906	T	5e-09	0.079
+31996736	Elsheikh SSM, 2020-01-29	longitudinal brain connectivity change (louvain modularity)	5	19473743	5p14.3	CDH18	rs144596626	G	3e-10	6.32
+36376304	Koskeridis F, 2022-11-14	cigarettes smoked per day (mtag)	1	49244592	1p33	AGBL4	rs12121950	T	1e-09	0.015834
+30038396	Lee JJ, 2018-07-23	self-reported math ability	22	38430794	22q13.1	KCNJ4	rs11704277	C	4e-09	0.0197
+36224396	Yengo L, 2022-10-12	height	19	41985364	19q13.2	ATP1A3	rs2217342	A	3e-90	0.0222
+33031748	Feofanova EV, 2020-10-01	serum metabolite levels	10	95062526	10q23.33	CYP2C8	rs142308077	A	1e-11	0.27
+35361970	Okbay A, 2022-03-31	educational attainment	2	232887841	2q37.1	NGEF	rs2250660	C	4e-18	0.00909075
+36224396	Yengo L, 2022-10-12	height	11	77405263	11q14.1	PAK1	rs2602461	A	2e-12	0.0125
+36477530	Saunders GRB, 2022-12-07	smoking initiation	12	82772695	12q21.31	TMTC2	rs11115402	C	3e-09	0.00664
+32888493	Chen MH, 2020-09-01	hemoglobin concentration	1	88829647	1p22.2	PKN2	rs786913	G	2e-10	0.011961
+32514122	Ishigaki K, 2020-06-08	rheumatoid arthritis	2	191090464	2q32.2	STAT4	rs10553577	T	1e-09	1.157601
+36168886	Thareja G, 2022-09-28	interleukin-6 receptor subunit alpha levels	1	154577015	1q21.3	CHRNB2	rs12125018	C	7e-12	0.523565
+31551469	Tabassum R, 2019-09-24	cholesteryl ester levels	11	61514878	11q12.2	SYT7	rs3741259	T	6e-11	0.3165
+35974141	Lahti J, 2022-08-16	verbal short term memory	5	19508246	5p14.3	CDH18	rs1493445	A	9e-09	5.747
+32376654	Richardson TG, 2020-05-06	adult body size	1	49531287	1p33	AGBL4	rs1167311	G	1e-16	0.0122534
+29942085	Nagel M, 2018-06-25	neuroticism	1	48873930	1p33	AGBL4	rs12747763	T	1e-08	5.679
+35347128	Yin X, 2022-03-28	3-carboxy-4-methyl-5-pentyl-2-furanpropionate (3-cmpfp) levels	10	95059456	10q23.33	CYP2C8	rs11188162	T	5e-19	0.19
+31959995	Schlosser P, 2020-01-20	urinary metabolite levels in chronic kidney disease	10	95068566	10q23.33	CYP2C8	rs2071426	C	2e-14	0.219
+34033851	Cordell HJ, 2021-05-22	primary biliary cholangitis	2	191079016	2q32.2	STAT4	rs11889341	T	2e-12	0.289575
+31672989	Lopez-Isac E, 2019-10-31	systemic sclerosis	2	191038032	2q32.2	STAT4	rs3821236	A	2e-23	1.31
+31015401	Wu Y, 2019-04-23	medication use (thyroid preparations)	2	191079016	2q32.2	STAT4	rs11889341	T	3e-39	0.14335068
+33069728	Pu W, 2020-10-15	systemic sclerosis	2	191099907	2q32.2	STAT4	rs7574865	T	4e-12	1.43
+25642632	Liu H, 2015-02-02	leprosy	5	20374104	5p14.3	CDH18	rs73058713	A	1e-08	1.19
+32242144	Revez JA, 2020-04-02	serum 25-hydroxyvitamin d levels	21	14966851	21q11.2	NRIP1	rs2229742	G	1e-14	0.025
+25673412	Shungin D, 2015-02-12	waist circumference	1	48972333	1p33	AGBL4	rs3127553	A	2e-10	0.0226
+36477530	Saunders GRB, 2022-12-07	smoking initiation	19	41981180	19q13.2	ATP1A3	rs74488471	A	3e-10	0.0148
+33414549	Demange PA, 2021-01-07	cognitive aspects of educational attainment	11	61546053	11q12.2	SYT7	rs77128898	C	2e-09	0.11842031
+30643251	Liu M, 2019-01-14	cigarettes smoked per day (mtag)	1	154576045	1q21.3	CHRNB2	rs2072659	G	7e-16	0.0314007
+36376304	Koskeridis F, 2022-11-14	c-reactive protein levels (mtag)	1	154578556	1q21.3	CHRNB2	rs3811450	T	3e-15	0.029957
+36477530	Saunders GRB, 2022-12-07	smoking initiation	1	49948574	1p33	AGBL4	rs537962582	G	1e-20	0.00803
+35050183	Hysi PG, 2022-01-11	andro steroid monosulfate (1) levels	10	95064981	10q23.33	CYP2C8	rs7098376	T	2e-20	0.157
+26192919	Liu JZ, 2015-07-20	crohn's disease	2	191066738	2q32.2	STAT4	rs1517352	C	1e-10	1.0832976
+34594039	Sakaue S, 2021-09-30	mean corpuscular hemoglobin	1	88760293	1p22.2	PKN2	rs430600	C	1e-09	0.0123
+26426971	Winkler TW, 2015-10-01	body mass index	1	48972333	1p33	AGBL4	rs3127553	A	7e-12	0.019238222
+35347128	Yin X, 2022-03-28	x-16087 levels	10	95059456	10q23.33	CYP2C8	rs11188162	T	5e-17	0.2
+30038396	Lee JJ, 2018-07-23	educational attainment (years of education)	11	61579561	11q12.2	SYT7	rs75033012	C	1e-11	0.0258
+26192919	Liu JZ, 2015-07-20	inflammatory bowel disease	2	191066738	2q32.2	STAT4	rs1517352	C	4e-14	1.0809946
+30038396	Lee JJ, 2018-07-23	self-reported math ability	2	232888630	2q37.1	NGEF	rs2675956	G	9e-22	0.0194
+30643251	Liu M, 2019-01-14	smoking initiation (ever regular vs never regular) (mtag)	1	49913919	1p33	AGBL4	rs56184305	A	3e-23	0.0129137
+26502338	Bentham J, 2015-10-26	systemic lupus erythematosus	2	191079016	2q32.2	STAT4	rs11889341	T	6e-122	1.73
+36224396	Yengo L, 2022-10-12	height	9	72123011	9q21.13	GDA	rs12552331	G	2e-11	0.0043
+30108127	Hoffmann TJ, 2018-08-14	body mass index	1	49846528	1p33	AGBL4	rs4582848	A	3e-10	0.019
+21750679	Allanore Y, 2011-07-07	systemic sclerosis	2	191099907	2q32.2	STAT4	rs7574865	T	2e-13	1.38
+32771030	Tangtanatakul P, 2020-08-08	systemic lupus erythematosus	2	191105394	2q32.3	STAT4	rs7582694	C	8e-16	1.5675
+32778093	He B, 2020-08-10	protein quantitative trait loci (liver)	5	20367495	5p14.3	CDH18	rs78624483	C	2e-10	0.04802
+24532676	Kim K, 2014-02-14	rheumatoid arthritis (acpa-positive)	2	191068528	2q32.2	STAT4	rs13426947	A	4e-17	1.17
+34021172	Christakoudi S, 2021-05-21	waist circumference adjusted for body mass index	1	88827612	1p22.2	PKN2	rs569279311	CCCCTTCCCTT	3e-10	0.0195191
+36477530	Saunders GRB, 2022-12-07	cigarettes smoked per day	1	154576045	1q21.3	CHRNB2	rs2072659	G	1e-18	0.0231
+36224396	Yengo L, 2022-10-12	height	7	43325182	7p13	HECW1	rs4724197	G	3e-17	0.0054
+24390342	Okada Y, 2013-12-25	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	1e-12	1.12
+36224396	Yengo L, 2022-10-12	height	13	49147986	13q14.2	FNDC3A	rs9526523	C	7e-14	0.0094
+36477530	Saunders GRB, 2022-12-07	smoking initiation	5	20088154	5p14.3	CDH18	rs1898159	T	2e-12	0.00616
+30239722	Pulit SL, 2018-09-14	body mass index	1	49244592	1p33	AGBL4	rs12121950	T	7e-24	0.0185
+26502338	Bentham J, 2015-10-26	systemic lupus erythematosus	2	191079016	2q32.2	STAT4	rs11889341	T	2e-76	1.68
+32888494	Vuckovic D, 2020-09-01	platelet count	21	15005362	21q21.1	NRIP1	rs139790892	GCCCCCC	5e-10	0.01958767
+30239722	Pulit SL, 2018-09-14	waist-to-hip ratio adjusted for bmi	11	9003083	11p15.4	NRIP3	rs6486060	A	6e-09	0.0106
+33310728	Ha E, 2020-12-11	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	4e-30	1.16
+35470158	Saevarsdottir S, 2022-04-25	rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	2	191094763	2q32.2	STAT4	rs4853458	A	5e-14	1.11
+30038396	Lee JJ, 2018-07-23	cognitive performance (mtag)	11	61546053	11q12.2	SYT7	rs77128898	T	3e-11	0.041
+33462484	Sinnott-Armstrong N, 2021-01-18	direct bilirubin levels	2	232931542	2q37.1	NGEF	rs79984888	A	7e-11	0.0359
+22961000	Liu JZ, 2012-10-01	primary biliary cirrhosis	2	191099907	2q32.2	STAT4	rs7574865	A	1e-13	1.31
+34586374	Giannakopoulou O, 2021-09-29	depression	1	49866053	1p33	AGBL4	rs10788920	T	1e-11	0.0131658
+35078996	Gudjonsson A, 2022-01-25	serum levels of protein c1rl	12	7143332	12p13.31	CLSTN3	rs113899462	A	1e-15	0.358309
+24816252	Shin SY, 2014-05-11	x-02269 levels	10	95068566	10q23.33	CYP2C8	rs2071426	T	7e-14	0.055
+36224396	Yengo L, 2022-10-12	height	8	101960492	8q22.3	NCALD	rs16868803	C	4e-10	0.0161
+36224396	Yengo L, 2022-10-12	height	8	101890637	8q22.3	NCALD	rs512202	A	1e-43	0.0097
+28540026	Anney RJL, 2017-05-22	autism spectrum disorder or schizophrenia	2	232930111	2q37.1	NGEF	rs2944591	T	1e-08	1.06
+33272962	Yin X, 2020-12-03	systemic lupus erythematosus	2	191079016	2q32.2	STAT4	rs11889341	T	5e-123	1.407
+33462484	Sinnott-Armstrong N, 2021-01-18	total bilirubin levels	2	232997250	2q37.1	NGEF	rs4643532	C	4e-29	0.0382
+33462485	Kurilshikov A, 2021-01-18	gut microbiota abundance (genus faecalibacterium id.2057)	12	83108994	12q21.31	TMTC2	rs12320842	C	8e-09	5.7777743
+34594039	Sakaue S, 2021-09-30	body mass index	1	49244592	1p33	AGBL4	rs12121950	T	6e-20	0.0184
+33462484	Sinnott-Armstrong N, 2021-01-18	calcium levels	3	121405522	3q13.33	STXBP5L	rs116711573	T	2e-09	0.0421
+34594039	Sakaue S, 2021-09-30	medication use (beta blocking agents)	8	101890769	8q22.3	NCALD	rs487987	C	1e-08	0.0424
+33462484	Sinnott-Armstrong N, 2021-01-18	cystatin c levels	13	49174144	13q14.2	FNDC3A	rs77003779	G	9e-35	0.0625
+29808027	Tedja MS, 2018-05-28	spherical equivalent or myopia (age of diagnosis)	21	14966851	21q11.2	NRIP1	rs2229742	C	9e-10	6.121
+31761296	Hernandez Cordero AI, 2019-11-21	appendicular lean mass	10	95059638	10q23.33	CYP2C8	rs191305096	C	5e-11	0.096012
+35361970	Okbay A, 2022-03-31	educational attainment	2	232933445	2q37.1	NGEF	rs778342	A	3e-19	0.0174576
+32042192	Ruth KS, 2020-02-10	total testosterone levels	10	95067165	10q23.33	CYP2C8	rs11572082	C	8e-11	0.0129824
+35974141	Lahti J, 2022-08-16	verbal short term memory	5	19518057	5p14.3	CDH18	rs447505	T	1e-08	5.697
+25673413	Locke AE, 2015-02-12	body mass index	1	49124175	1p33	AGBL4	rs657452	A	5e-13	0.023
+35347128	Yin X, 2022-03-28	androstenediol (3alpha, 17alpha) monosulfate (3) levels	10	95064055	10q23.33	CYP2C8	rs111328885	A	5e-20	0.28
+32581359	Saevarsdottir S, 2020-06-24	autoimmune thyroid disease	2	191101726	2q32.3	STAT4	rs7568275	G	5e-39	1.15
+34594039	Sakaue S, 2021-09-30	sjögren's syndrome	2	191079016	2q32.2	STAT4	rs11889341	T	7e-12	0.2901
+36224396	Yengo L, 2022-10-12	height	12	82980113	12q21.31	TMTC2	rs10778921	G	4e-09	0.007
+30108127	Hoffmann TJ, 2018-08-14	body mass index	1	49124175	1p33	AGBL4	rs657452	A	5e-16	0.021
+31604244	International Multiple Sclerosis Genetics Consortium, 2019-09-01	multiple sclerosis	2	191124630	2q32.3	STAT4	rs6738544	C	2e-13	1.0741
+35470158	Saevarsdottir S, 2022-04-25	rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	2	191073180	2q32.2	STAT4	rs140675301	A	2e-09	2.27
+36376304	Koskeridis F, 2022-11-14	body mass index (mtag)	1	49124175	1p33	AGBL4	rs657452	A	2e-31	0.01911
+32888494	Vuckovic D, 2020-09-01	red blood cell count	1	88829647	1p22.2	PKN2	rs786913	G	1e-15	0.018106245
+28892062	Akiyama M, 2017-09-11	body mass index	1	49124175	1p33	AGBL4	rs657452	G	2e-15	0.019
+35213538	Richardson TG, 2022-02-25	ratio of omega-3 fatty acids to total fatty acids	11	61555316	11q12.2	SYT7	rs377288794	C	5e-13	0.130688
+32514122	Ishigaki K, 2020-06-08	prostate cancer	21	14998781	21q11.2	NRIP1	rs1997577	T	2e-09	0.87838453
+36224396	Yengo L, 2022-10-12	height	12	82775484	12q21.31	TMTC2	rs11115413	G	2e-32	0.0113
+35974141	Lahti J, 2022-08-16	verbal short term memory	5	19503228	5p14.3	CDH18	rs3749622	C	1e-08	5.719
+32888494	Vuckovic D, 2020-09-01	plateletcrit	21	15005362	21q21.1	NRIP1	rs139790892	GCCCCCC	5e-11	0.020857092
+36477530	Saunders GRB, 2022-12-07	drinks per week	5	19982804	5p14.3	CDH18	rs13173892	T	4e-20	0.00768
+35361970	Okbay A, 2022-03-31	educational attainment	11	20937639	11p15.1	NELL1	rs1880088	A	7e-11	0.00772969
+36477530	Saunders GRB, 2022-12-07	smoking initiation	1	49913919	1p33	AGBL4	rs56184305	A	3e-51	0.0158
+32888494	Vuckovic D, 2020-09-01	plateletcrit	21	14966851	21q11.2	NRIP1	rs2229742	C	8e-10	0.022987772
+30598549	Morris JA, 2018-12-31	heel bone mineral density	2	232927497	2q37.1	NGEF	rs2944590	G	9e-28	0.0201148
+36333282	Kim YJ, 2022-11-04	fasting plasma glucose	10	26226737	10p12.1	GAD2	rs61839365	A	7e-12	0.0224
+36333501	Ishigaki K, 2022-11-04	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	1e-16	1.1311107
+35167971	Leffers HCB, 2022-02-12	systemic lupus erythematosus	2	191099907	2q32.2	STAT4	rs7574865	T	2e-12	1.69
+34594039	Sakaue S, 2021-09-30	medication use (immunosuppressants)	2	191105394	2q32.3	STAT4	rs7582694	G	2e-13	0.1385
+30038396	Lee JJ, 2018-07-23	educational attainment (mtag)	2	232879084	2q37.1	NGEF	rs35811586	T	9e-14	0.0218
+24097067	Lessard CJ, 2013-11-01	sjögren's syndrome	2	191090464	2q32.2	STAT4	rs10553577	T	7e-15	1.43
+34594039	Sakaue S, 2021-09-30	platelet count	21	15005362	21q21.1	NRIP1	rs139790892	GCCCCCC	9e-11	0.0209
+32888493	Chen MH, 2020-09-01	mean corpuscular hemoglobin	1	88766080	1p22.2	PKN2	rs12021820	A	2e-11	0.012899
+35841873	Xue Z, 2022-07-13	myopia	21	14981488	21q11.2	NRIP1	rs17274750	C	1e-08	0.10654681
+34594039	Sakaue S, 2021-09-30	serum total protein level	12	7135290	12p13.31	CLSTN3	rs6488452	C	7e-10	0.0151
+32888494	Vuckovic D, 2020-09-01	monocyte percentage of white cells	21	15001515	21q21.1	NRIP1	rs2823002	T	2e-12	0.02164241
+32778093	He B, 2020-08-10	protein quantitative trait loci (liver)	11	77410762	11q14.1	PAK1	rs7925753	A	1e-08	0.5293
+30038396	Lee JJ, 2018-07-23	educational attainment (years of education)	2	232879084	2q37.1	NGEF	rs35811586	T	5e-12	0.0217
+34594039	Sakaue S, 2021-09-30	medication use (diuretics)	21	14966851	21q11.2	NRIP1	rs2229742	C	4e-09	0.0762
+29875488	Sun BB, 2018-06-06	protein fam189a2 levels (fam189a2.5699.19.3)	11	20937848	11p15.1	NELL1	rs8176786	T	7e-49	0.84
+30038396	Lee JJ, 2018-07-23	highest math class taken (mtag)	2	232887841	2q37.1	NGEF	rs2250660	C	9e-19	0.0146
+36477530	Saunders GRB, 2022-12-07	drinks per week	19	41985364	19q13.2	ATP1A3	rs2217342	C	8e-11	0.00914
+33462484	Sinnott-Armstrong N, 2021-01-18	calcium levels	3	120931241	3q13.33	STXBP5L	rs79866578	A	4e-09	0.0462
+33462484	Sinnott-Armstrong N, 2021-01-18	serum phosphate levels	10	103288460	10q24.33	INA	rs34440112	C	6e-10	0.0459
+34594039	Sakaue S, 2021-09-30	medication use (agents acting on the renin-angiotensin system)	21	14966851	21q11.2	NRIP1	rs2229742	C	1e-08	0.0567
+24816252	Shin SY, 2014-05-11	x-11469 levels	10	95068566	10q23.33	CYP2C8	rs2071426	T	4e-14	0.052
+34077760	Alipanahi B, 2021-06-01	vertical cup-disc ratio	1	88830082	1p22.2	PKN2	rs786914	C	2e-11	0.0323
+33972514	Pazoki R, 2021-05-10	liver enzyme levels (alanine transaminase)	1	88776689	1p22.2	PKN2	rs805047	A	5e-16	0.00326396
+32193382	Cole JB, 2020-03-19	principal component-derived dietary pattern 3	2	232888373	2q37.1	NGEF	rs5839454	C	6e-09	0.0221789
+36224396	Yengo L, 2022-10-12	height	2	232961237	2q37.1	NGEF	rs11678851	T	8e-14	0.0055
+30643251	Liu M, 2019-01-14	alcohol consumption (drinks per week) (mtag)	5	19958948	5p14.3	CDH18	rs6451575	T	2e-09	0.00799836
+36477530	Saunders GRB, 2022-12-07	drinks per week	5	19987130	5p14.3	CDH18	rs13158011	C	4e-20	0.00844
+35872910	Carcel-Marquez J, 2022-07-08	atrial fibrillation (mtag)	1	48844092	1p33	AGBL4	rs11590635	A	3e-09	0.027
+31501611	Karlsson T, 2019-09-09	predicted visceral adipose tissue	1	49497801	1p33	AGBL4	rs1591726	T	4e-17	0.022329483
+36333501	Ishigaki K, 2022-11-04	rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	2	191079016	2q32.2	STAT4	rs11889341	T	2e-26	1.1461402
+32888494	Vuckovic D, 2020-09-01	red cell distribution width	8	102065562	8q22.3	NCALD	rs636089	C	3e-14	0.017295616
+31015401	Wu Y, 2019-04-23	medication use (diuretics)	21	14966851	21q11.2	NRIP1	rs2229742	C	4e-09	0.07623563
+30108127	Hoffmann TJ, 2018-08-14	body mass index	1	48972333	1p33	AGBL4	rs3127553	G	3e-16	0.021
+33106285	Lopez-Isac E, 2020-10-26	arthritis (juvenile idiopathic)	2	191079016	2q32.2	STAT4	rs11889341	T	2e-19	1.26
+27863252	Astle WJ, 2016-11-17	platelet distribution width	21	14999545	21q11.2	NRIP1	rs397712573	TA	8e-12	0.02593972
+30573655	Acosta-Herrera M, 2018-12-20	systemic seropositive rheumatic diseases (systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)	2	191068557	2q32.2	STAT4	rs13389408	C	3e-17	1.27
+30643251	Liu M, 2019-01-14	smoking behaviour (cigarettes smoked per day)	1	154576045	1q21.3	CHRNB2	rs2072659	G	3e-13	0.029984204
+28869591	Kemp JP, 2017-09-04	heel bone mineral density	2	232925812	2q37.1	NGEF	rs2675952	T	1e-12	0.0243498
+34321204	Harrison S, 2021-07-28	free testosterone levels	19	41997241	19q13.2	ATP1A3	rs140433255	A	3e-09	0
+24390342	Okada Y, 2013-12-25	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	4e-19	1.13
+36093044	Mathieu S, 2022-08-20	hypothyroidism	2	191101726	2q32.3	STAT4	rs7568275	C	4e-41	0.1280318
+32042192	Ruth KS, 2020-02-10	total testosterone levels	10	95064055	10q23.33	CYP2C8	rs111328885	C	2e-14	0.0325591
+32888494	Vuckovic D, 2020-09-01	monocyte count	21	15001515	21q21.1	NRIP1	rs2823002	T	8e-27	0.03282768
+32888493	Chen MH, 2020-09-01	monocyte count	21	14998781	21q11.2	NRIP1	rs1997577	T	6e-30	0.029591
+32059762	Manousaki D, 2020-02-05	serum 25-hydroxyvitamin d levels	21	14966851	21q11.2	NRIP1	rs2229742	C	7e-16	0.025738
+30575882	Lotta LA, 2018-12-01	waist-to-hip ratio adjusted for bmi	11	9003083	11p15.4	NRIP3	rs6486060	G	2e-10	0.012
+30038396	Lee JJ, 2018-07-23	educational attainment (years of education)	2	232887841	2q37.1	NGEF	rs2250660	C	1e-08	0.008
+35050183	Hysi PG, 2022-01-11	3-carboxy-4-methyl-5-pentyl-2-furanpropionate (3-cmpfp) (x-02249) levels	10	95064649	10q23.33	CYP2C8	rs11572093	T	5e-18	0.141
+32888494	Vuckovic D, 2020-09-01	lymphocyte count	21	14998781	21q11.2	NRIP1	rs1997577	T	1e-09	0.01872164
+34910505	van der Meer D, 2021-12-15	vertex-wise cortical thickness	1	49036630	1p33	AGBL4	rs4926784	T	4e-09	5.87
+31681408	Yang XL, 2019-10-11	birth weight (mtag)	21	14966851	21q11.2	NRIP1	rs2229742	C	7e-09	0.032112274
+36477530	Saunders GRB, 2022-12-07	smoking initiation	5	19932577	5p14.3	CDH18	rs9986203	T	4e-12	0.00543
+34033851	Cordell HJ, 2021-05-22	primary biliary cholangitis	2	191079016	2q32.2	STAT4	rs11889341	T	3e-31	0.251604
+35762941	Plotnikov D, 2022-06-01	systolic blood pressure	1	88820990	1p22.2	PKN2	rs786921	A	2e-13	0.2698
+34594039	Sakaue S, 2021-09-30	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	3e-17	0.1232
+30239722	Pulit SL, 2018-09-14	body mass index	1	49827749	1p33	AGBL4	rs12128108	T	3e-22	0.0188
+30423114	Laufer VA, 2018-11-13	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	5e-20	0.146886
+27841878	Hoffmann TJ, 2016-11-14	pulse pressure	1	88815846	1p22.2	PKN2	rs786919	A	2e-09	0.156
+35078996	Gudjonsson A, 2022-01-25	serum levels of protein nell1	11	20937848	11p15.1	NELL1	rs8176786	T	2e-115	0.896424
+34594039	Sakaue S, 2021-09-30	height	1	88723411	1p22.2	PKN2	rs35424856	GC	1e-25	0.0217003
+30038396	Lee JJ, 2018-07-23	highest math class taken	2	232888630	2q37.1	NGEF	rs2675956	G	1e-29	0.0266
+35347128	Yin X, 2022-03-28	hydroxy-cmpf levels	10	95059420	10q23.33	CYP2C8	rs11188161	C	4e-11	0.15
+34321204	Harrison S, 2021-07-28	bioavailable testosterone levels	19	41997241	19q13.2	ATP1A3	rs140433255	A	6e-09	0.05
+36224396	Yengo L, 2022-10-12	height	2	232999917	2q37.1	NGEF	rs12471240	C	5e-75	0.0152
+30598549	Morris JA, 2018-12-31	heel bone mineral density	12	82715201	12q21.31	TMTC2	rs11615765	T	7e-10	0.0186798
+31689377	Wootton RE, 2019-11-06	lifetime smoking index	1	49512293	1p33	AGBL4	rs1933270	T	2e-10	0.013
+32888494	Vuckovic D, 2020-09-01	eosinophil counts	2	191108837	2q32.3	STAT4	rs6752770	G	2e-09	0.014346599
+23603761	Hinks A, 2013-04-21	juvenile idiopathic arthritis (oligoarticular or rheumatoid factor-negative polyarticular)	2	191108308	2q32.3	STAT4	rs10174238	G	1e-13	1.29
+30038396	Lee JJ, 2018-07-23	educational attainment (mtag)	11	20932072	11p15.1	NELL1	rs10741859	T	1e-08	0.0085
+35361970	Okbay A, 2022-03-31	educational attainment	2	232901387	2q37.1	NGEF	rs76010712	A	6e-12	0.0128496
+34594039	Sakaue S, 2021-09-30	hemoglobin a1c levels	10	26256259	10p12.1	GAD2	rs12360108	G	1e-10	0.0168
+31043758	Warrington NM, 2019-05-01	birth weight	21	14966851	21q11.2	NRIP1	rs2229742	G	7e-11	0.027215
+32778093	He B, 2020-08-10	protein quantitative trait loci (liver)	5	20304315	5p14.3	CDH18	rs111913224	G	4e-11	0.04686
+28869591	Kemp JP, 2017-09-04	heel bone mineral density	1	88705538	1p22.2	PKN2	rs56969212	CA	1e-11	0.0224347
+30224653	Evangelou E, 2018-09-17	systolic blood pressure	8	101738369	8q22.3	NCALD	rs142449193	C	8e-10	0.4549
+35361970	Okbay A, 2022-03-31	educational attainment	11	61546053	11q12.2	SYT7	rs77128898	T	2e-16	0.0242039
+35470158	Saevarsdottir S, 2022-04-25	rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	2	191079016	2q32.2	STAT4	rs11889341	T	5e-14	1.11
+32888494	Vuckovic D, 2020-09-01	hemoglobin	21	14966851	21q11.2	NRIP1	rs2229742	C	6e-13	0.026194444
+34594039	Sakaue S, 2021-09-30	calcium levels	X	20026689	Xp22.12	MAP7D2	rs72620220	A	5e-15	0.0206
+36224396	Yengo L, 2022-10-12	height	11	20887367	11p15.1	NELL1	rs7128766	A	2e-10	0.0071
+36477530	Saunders GRB, 2022-12-07	drinks per week	5	20135811	5p14.3	CDH18	rs11949611	C	4e-18	0.00839
+30061737	Nielsen JB, 2018-07-30	atrial fibrillation	1	48844092	1p33	AGBL4	rs11590635	A	4e-09	1.16
+34127860	Robertson CC, 2021-06-14	type 1 diabetes	2	191105394	2q32.3	STAT4	rs7582694	G	3e-09	0.916
+26502338	Bentham J, 2015-10-26	systemic lupus erythematosus	2	191081596	2q32.2	STAT4	rs6736175	C	9e-17	1.24
+26426971	Winkler TW, 2015-10-01	body mass index	1	49846528	1p33	AGBL4	rs4582848	A	8e-10	0.0196049
+29808027	Tedja MS, 2018-05-28	myopia (age of diagnosis)	21	14981488	21q11.2	NRIP1	rs17274750	A	5e-09	0.07
+32888493	Chen MH, 2020-09-01	red cell distribution width	8	102065562	8q22.3	NCALD	rs636089	T	5e-16	0.015728
+34594039	Sakaue S, 2021-09-30	pulse pressure	1	88745176	1p22.2	PKN2	rs305219	T	5e-13	0.0134
+30224653	Evangelou E, 2018-09-17	systolic blood pressure	1	48586751	1p33	AGBL4	rs11579440	T	3e-10	0.2674
+32203549	Richardson TG, 2020-03-23	hdl cholesterol levels	21	15031073	21q21.1	NRIP1	rs8127283	G	5e-09	0.0123137
+35361970	Okbay A, 2022-03-31	educational attainment	10	26250754	10p12.1	GAD2	rs7074897	A	4e-09	0.00797453
+35361970	Okbay A, 2022-03-31	educational attainment	7	43559889	7p13	HECW1	rs12702051	T	4e-10	0.00706879
+36477530	Saunders GRB, 2022-12-07	drinks per week	5	19987130	5p14.3	CDH18	rs13158011	C	2e-20	0.00775
+30598549	Morris JA, 2018-12-31	heel bone mineral density	1	88715162	1p22.2	PKN2	rs167365	C	1e-23	0.0188777
+30072576	Emilsson V, 2018-08-02	blood protein levels	11	20930691	11p15.1	NELL1	rs16907058	G	9e-79	1.0087626
+25673413	Locke AE, 2015-02-12	body mass index	1	49124175	1p33	AGBL4	rs657452	A	2e-13	0.023
+23242368	Jiang DK, 2012-12-16	hepatocellular carcinoma in hepatitis b infection	2	191099907	2q32.2	STAT4	rs7574865	G	2e-10	1.21
+34077760	Alipanahi B, 2021-06-01	vertical cup-disc ratio	1	88787674	1p22.2	PKN2	rs786908	A	4e-10	0.00431
+33462484	Sinnott-Armstrong N, 2021-01-18	calcium levels	1	49590870	1p33	AGBL4	rs61783608	A	3e-10	0.0547
+36477530	Saunders GRB, 2022-12-07	smoking initiation	3	121356119	3q13.33	STXBP5L	rs35335914	C	2e-10	0.00508
+26606652	Alarcon-Riquelme ME, 2015-11-25	systemic lupus erythematosus	2	191079016	2q32.2	STAT4	rs11889341	T	7e-13	1.5
+32888493	Chen MH, 2020-09-01	hematocrit	1	88829647	1p22.2	PKN2	rs786913	G	4e-16	0.015376
+32888494	Vuckovic D, 2020-09-01	hematocrit	21	14966851	21q11.2	NRIP1	rs2229742	C	7e-15	0.028296785
+36477530	Saunders GRB, 2022-12-07	smoking initiation	5	20126781	5p14.3	CDH18	rs7700453	C	1e-12	0.00551
+30038396	Lee JJ, 2018-07-23	educational attainment (years of education)	11	20937639	11p15.1	NELL1	rs1880088	A	1e-09	0.0097
+32888493	Chen MH, 2020-09-01	red cell distribution width	21	14998781	21q11.2	NRIP1	rs1997577	A	4e-11	0.0173
+34503513	Harshfield EL, 2021-09-10	lysophosphatidylcholine_20:4_[m+h]1+ levels	11	61534772	11q12.2	SYT7	rs11230735	T	9e-12	0.0974011
+32888494	Vuckovic D, 2020-09-01	red blood cell count	21	14966851	21q11.2	NRIP1	rs2229742	C	4e-20	0.033354025
+32888494	Vuckovic D, 2020-09-01	white blood cell count	21	14998781	21q11.2	NRIP1	rs1997577	T	3e-11	0.020476542
+34594039	Sakaue S, 2021-09-30	graves' disease	2	191089272	2q32.2	STAT4	rs12612769	C	9e-09	0.1449
+34594039	Sakaue S, 2021-09-30	systemic lupus erythematosus	2	191090464	2q32.2	STAT4	rs10553577	T	6e-13	0.3835
+35470158	Saevarsdottir S, 2022-04-25	rheumatoid arthritis	2	191094763	2q32.2	STAT4	rs4853458	A	3e-19	1.1
+35974141	Lahti J, 2022-08-16	verbal short term memory	5	19511365	5p14.3	CDH18	rs347702	A	1e-08	5.738
+36477530	Saunders GRB, 2022-12-07	smoking initiation	1	49546996	1p33	AGBL4	rs149043137	T	5e-18	0.0207
+31959993	Craig JE, 2020-01-20	vertical cup-disc ratio (multi-trait analysis)	1	88830082	1p22.2	PKN2	rs786914	C	6e-09	0.0051
+36327221	Wang Y, 2022-11-03	severe covid-19 or systemic lupus erythematosus	2	191031838	2q32.2	STAT4	rs3024897	C	1e-08	0.87
+33462484	Sinnott-Armstrong N, 2021-01-18	vitamin d levels	21	14966851	21q11.2	NRIP1	rs2229742	C	3e-13	0.0294
+36333501	Ishigaki K, 2022-11-04	rheumatoid arthritis	2	191079016	2q32.2	STAT4	rs11889341	T	2e-31	1.1378039
+23053960	Lee YH, 2012-10-07	systemic lupus erythematosus	2	191099907	2q32.2	STAT4	rs7574865	T	4e-14	1.477
+36333501	Ishigaki K, 2022-11-04	rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	2	191079016	2q32.2	STAT4	rs11889341	T	6e-15	1.1341687
+31551469	Tabassum R, 2019-09-24	phosphatidylcholine levels	11	61514878	11q12.2	SYT7	rs3741259	T	2e-09	0.2899
+36477530	Saunders GRB, 2022-12-07	cigarettes smoked per day	1	154576045	1q21.3	CHRNB2	rs2072659	G	6e-18	0.0261
+33272962	Yin X, 2020-12-03	systemic lupus erythematosus	2	191084261	2q32.2	STAT4	rs71403211	T	3e-49	1.462
+26192919	Liu JZ, 2015-07-20	ulcerative colitis	2	191066738	2q32.2	STAT4	rs1517352	C	2e-09	1.0808891
+34594039	Sakaue S, 2021-09-30	white blood cell count	21	14998781	21q11.2	NRIP1	rs1997577	T	3e-11	0.0161
+36477530	Saunders GRB, 2022-12-07	smoking initiation	9	72183740	9q21.13	GDA	rs10869143	G	2e-09	0.00526
+33462484	Sinnott-Armstrong N, 2021-01-18	direct bilirubin levels	2	232997250	2q37.1	NGEF	rs4643532	C	2e-12	0.0259
+33097823	Pei YF, 2020-10-23	appendicular lean mass	1	88706049	1p22.2	PKN2	rs71584924	T	1e-17	0.0161
+23400010	Del-Aguila JL, 2013-02-12	thiazide-induced adverse metabolic effects in hypertensive patients	11	21543533	11p15.1	NELL1	rs12279250	C	7e-09	28.2
+29059683	Michailidou K, 2017-10-23	breast cancer	21	14992435	21q11.2	NRIP1	rs2822999	G	2e-11	0.0589
+31015401	Wu Y, 2019-04-23	medication use (agents acting on the renin-angiotensin system)	21	14966851	21q11.2	NRIP1	rs2229742	C	1e-08	0.056737185
+20383147	Radstake TR, 2010-04-11	systemic sclerosis	2	191038032	2q32.2	STAT4	rs3821236	A	3e-09	1.3
+33479212	Yao X, 2021-01-21	major depressive disorder (mtag)	1	49337431	1p33	AGBL4	rs35466861	A	2e-09	0.043263137
+29523850	Gilchrist JJ, 2018-03-09	nontyphoidal salmonella bacteraemia	2	191090090	2q32.2	STAT4	rs13390936	T	9e-10	7.61
+24871463	Armstrong DL, 2014-05-29	systemic lupus erythematosus	2	191099907	2q32.2	STAT4	rs7574865	T	5e-09	1.5083
+34594039	Sakaue S, 2021-09-30	red blood cell count	1	88715162	1p22.2	PKN2	rs167365	G	2e-18	0.0153
+28425483	Qiu F, 2017-04-20	primary biliary cholangitis	2	191071078	2q32.2	STAT4	rs10168266	A	4e-13	1.31
+24076602	Beecham AH, 2013-11-01	multiple sclerosis	2	191109709	2q32.3	STAT4	rs9967792	G	4e-12	1.09
+36477530	Saunders GRB, 2022-12-07	smoking initiation	11	20876844	11p15.1	NELL1	rs10766739	G	8e-10	0.00518
+27841878	Hoffmann TJ, 2016-11-14	systolic blood pressure	21	14971491	21q11.2	NRIP1	rs13050325	A	6e-09	0.258
+35835914	Watanabe K, 2022-07-14	insomnia	13	49066537	13q14.2	FNDC3A	rs117364766	C	7e-10	0.015
+34059833	Chen J, 2021-05-31	fasting glucose	10	26216893	10p12.1	GAD2	rs2839671	A	8e-14	0.016
