@@ -104,7 +104,7 @@ source("scritps-aux/filtering_pipeline.R")
 
 target.genes <- read.table("../counts/GSE125583_DiffCoexpInput.txt", header = T, sep = "\t")
 target.genes <- rownames(target.genes) 
-comparecor()
+
 diff.coexp("AMPAD_Mayo", mayo, mayo.exp, "results", hgnc, target.genes)
 diff.coexp("AMPAD_ROSMAP", rosmap, rosmap.exp, "results", hgnc, target.genes)
 diff.coexp("AMPAD_MSBB", msbb, msbb.exp, "results", hgnc, target.genes)

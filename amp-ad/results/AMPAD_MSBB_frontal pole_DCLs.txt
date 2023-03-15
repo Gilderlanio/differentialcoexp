@@ -1,0 +1,1 @@
+Gene.1	Gene.2	cor.1	cor.2	p.1	p.2	p.diffcor	q.1	q.2	q.diffcor	cor.diff	type

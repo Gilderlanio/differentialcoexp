@@ -1,0 +1,1 @@
+Gene	CLs	DCLs	DCL.same	DCL.diff	DCL.switch	p	q
