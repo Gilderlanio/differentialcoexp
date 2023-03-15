@@ -1,0 +1,112 @@
+---
+title: "Exploring AMP-AD metadata and gene expression."
+author: "Gilderlanio Santana de Araújo"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+
+library("diffcoexp")
+library("ggpubr")
+library("pheatmap")
+library("dplyr")
+
+
+hgnc <- read.csv("scritps-aux/hgnc_complete_set.txt", sep = "\t")
+
+```
+
+# Exploring metadata from AMP-AD.
+
+```{r}
+mayo <- read.csv("original_data/RNAseq_Harmonization_Mayo_combined_metadata.csv")
+mayo <- unique(mayo[, c("specimenID", "tissue", "diagnosis")])
+mayo <- mayo[mayo$diagnosis %in% c("AD", "CN"),]
+write.table(mayo, "sample_tissue_diag_data/AMPAD_Mayo_Samples.txt",
+            row.names = F, sep = "\t", quote = F)
+table(mayo$tissue, mayo$diagnosis)
+
+mayo.exp <- read.csv("original_data/Mayo_Filtered_counts_(greater_than_1cpm).tsv", sep = "\t", check.names = F)
+rownames(mayo.exp) <- mayo.exp$feature
+mayo.exp$feature <- NULL
+
+
+```
+
+
+```{r}
+
+# COGDX
+# 1 NCI: No cognitive impairment
+# 2 MCI: Mild cognitive impairment, no other condition contributing to CI
+# 3 MCI+: Mild cognitive impairment AND another condition contributing to CI
+# 4 AD: Alzheimer’s dementia, no other condition contributing to CI (NINCDS/ADRDA Probable AD)
+# 5 AD+: Alzheimer’s dementia AND other condition contributing to CI (NINCDS/ADRDA Possible AD)
+# 6 Other dementia: Other primary cause of dementia, no clinical evidence of Alzheimer’s dementia
+
+# ACC : anterior cingulate cortex
+# DLPFC : dorsolateral prefrontal cortex
+# PCC : posterior cingulate cortex
+
+rosmap <- read.csv("original_data/ROSMAP_Covariates_ages_censored.tsv", sep = "\t")
+rosmap <- unique(rosmap[, c("specimenID", "tissue", "diagnosis")])
+rosmap <- rosmap[rosmap$diagnosis %in% c("CT", "AD"),]
+rosmap <- rosmap[rosmap$tissue != "",]
+rosmap[rosmap$diagnosis == "CT", ]$diagnosis <- "CN"
+rosmap <- na.omit(rosmap)
+write.table(rosmap, "sample_tissue_diag_data/AMPAD_ROSMAP_Samples.txt",
+            row.names = F, sep = "\t", quote = F)
+table(rosmap$tissue, rosmap$diagnosis)
+
+rosmap.exp <- read.csv("original_data/ROSMAP_Filtered_counts_(greater_than_1cpm).tsv", sep = "\t", check.names = F)
+rownames(rosmap.exp) <- rosmap.exp$feature
+rosmap.exp$feature <- NULL
+
+```
+
+
+```{r}
+
+# CERAD criteria is defined as 1 = normal, 2 = definite AD, 3 = Probable AD, 4 = possible AD
+# https://www.sciencedirect.com/science/article/pii/B978012804832000002X
+
+msbb <- read.csv("original_data/RNAseq_Harmonization_MSBB_combined_metadata.csv")
+msbb <- unique(msbb[, c("specimenID", "tissue", "CDR", "CERAD")])
+msbb <- na.omit(msbb)
+msbb$diagnosis <- "X"
+msbb[msbb$CERAD == 1, ]$diagnosis <- "CN"
+msbb[msbb$CERAD == 2, ]$diagnosis <- "AD"
+msbb[msbb$CERAD == 3, ]$diagnosis <- "Prob AD"
+msbb[msbb$CERAD == 4, ]$diagnosis <- "Poss AD"
+
+write.table(msbb, "sample_tissue_diag_data/AMPAD_MSBB_Samples.txt",
+            row.names = F, sep = "\t", quote = F)
+
+table(msbb$tissue, msbb$diagnosis)
+
+msbb.exp <- read.csv("original_data/MSBB_Filtered_counts_(greater_than_1cpm).tsv", sep = "\t", check.names = F)
+rownames(msbb.exp) <- msbb.exp$feature
+msbb.exp$feature <- NULL
+```
+
+
+```{r}
+
+split.data("AMPAD_Mayo", mayo, mayo.exp, "counts", hgnc)
+split.data("AMPAD_ROSMAP", rosmap, rosmap.exp, "counts", hgnc)
+split.data("AMPAD_MSBB", msbb, msbb.exp, "counts", hgnc)
+
+```
+
+```{r}
+source("scritps-aux/filtering_pipeline.R")
+
+target.genes <- read.table("../counts/GSE125583_DiffCoexpInput.txt", header = T, sep = "\t")
+target.genes <- rownames(target.genes) 
+comparecor()
+diff.coexp("AMPAD_Mayo", mayo, mayo.exp, "results", hgnc, target.genes)
+diff.coexp("AMPAD_ROSMAP", rosmap, rosmap.exp, "results", hgnc, target.genes)
+diff.coexp("AMPAD_MSBB", msbb, msbb.exp, "results", hgnc, target.genes)
+```
+
