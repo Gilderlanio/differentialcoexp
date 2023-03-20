@@ -1,0 +1,50 @@
+---
+title: "Plot Adjusted Mutual Information and Jaccard Index"
+author: "Gilderlanio Santana de Araújo"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+\begin{document}
+
+\section{Heatmap of Jaccard Index}
+
+```{r}
+
+# After running Jupyter notebook.
+library("reshape2")
+library("reshape")
+library("pheatmap")
+
+jc <- read.table("amp-ad/results/Jaccard.txt", header = F, sep = "\t")
+jc$V4 <- NULL
+jc <- cast(jc, formula = V1 ~ V2)
+rownames(jc) <- jc$V1
+jc$V1 <- NULL
+
+
+heat.het <- pheatmap(jc, cluster_rows = T, cluster_cols = T, 
+                     display_numbers = TRUE, number_color = "black", 
+                     fontsize_number = 10, 
+                     main = "Pairwise Jaccard Index",
+                     angle_col = 45)
+heat.het
+```
+
+\section{Heatmap of Adjusted Mutual Information}
+
+```{r}
+
+mri <- read.table("amp-ad/results/MRI.txt", header = F, sep = "\t")
+mri <- cast(mri, formula = V1 ~ V2)
+rownames(mri) <- mri$V1
+mri$V1 <- NULL
+heat.het <- pheatmap(mri, cluster_rows = T, cluster_cols = T, 
+                     display_numbers = TRUE, number_color = "black", 
+                     fontsize_number = 10, 
+                     main = "Pairwise Adjusted Mutual Information (AMI)", 
+                     angle_col = 315)
+heat.het
+```
+
+\end{document}

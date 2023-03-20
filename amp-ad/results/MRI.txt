@@ -1,0 +1,36 @@
+Mayo :: temporal cortex	Mayo :: temporal cortex	1.0
+Mayo :: temporal cortex	MSBB :: parahippocampal gyrus	0.25106059364178446
+Mayo :: temporal cortex	MSBB :: inferior frontal gyrus	0.1596624889978552
+Mayo :: temporal cortex	Mayo :: cerebellum	0.39521443547919444
+Mayo :: temporal cortex	 GSE125583 :: fusiform gyrus	0.3000394848023023
+Mayo :: temporal cortex	MSBB :: superior temporal gyrus	0.0
+MSBB :: parahippocampal gyrus	Mayo :: temporal cortex	0.2510605936417846
+MSBB :: parahippocampal gyrus	MSBB :: parahippocampal gyrus	1.0
+MSBB :: parahippocampal gyrus	MSBB :: inferior frontal gyrus	-0.0032845925212925515
+MSBB :: parahippocampal gyrus	Mayo :: cerebellum	0.21096828276050164
+MSBB :: parahippocampal gyrus	 GSE125583 :: fusiform gyrus	0.071457024175976
+MSBB :: parahippocampal gyrus	MSBB :: superior temporal gyrus	0.0
+MSBB :: inferior frontal gyrus	Mayo :: temporal cortex	0.15966248899785535
+MSBB :: inferior frontal gyrus	MSBB :: parahippocampal gyrus	-0.0032845925212923767
+MSBB :: inferior frontal gyrus	MSBB :: inferior frontal gyrus	1.0
+MSBB :: inferior frontal gyrus	Mayo :: cerebellum	0.05330119374984724
+MSBB :: inferior frontal gyrus	 GSE125583 :: fusiform gyrus	0.04283044783472261
+MSBB :: inferior frontal gyrus	MSBB :: superior temporal gyrus	0.0
+Mayo :: cerebellum	Mayo :: temporal cortex	0.3952144354791945
+Mayo :: cerebellum	MSBB :: parahippocampal gyrus	0.21096828276050142
+Mayo :: cerebellum	MSBB :: inferior frontal gyrus	0.05330119374984722
+Mayo :: cerebellum	Mayo :: cerebellum	1.0
+Mayo :: cerebellum	 GSE125583 :: fusiform gyrus	0.15056692430690866
+Mayo :: cerebellum	MSBB :: superior temporal gyrus	0.0
+ GSE125583 :: fusiform gyrus	Mayo :: temporal cortex	0.300039484802302
+ GSE125583 :: fusiform gyrus	MSBB :: parahippocampal gyrus	0.07145702417597552
+ GSE125583 :: fusiform gyrus	MSBB :: inferior frontal gyrus	0.04283044783472198
+ GSE125583 :: fusiform gyrus	Mayo :: cerebellum	0.15056692430690857
+ GSE125583 :: fusiform gyrus	 GSE125583 :: fusiform gyrus	1.0
+ GSE125583 :: fusiform gyrus	MSBB :: superior temporal gyrus	0.0
+MSBB :: superior temporal gyrus	Mayo :: temporal cortex	0.0
+MSBB :: superior temporal gyrus	MSBB :: parahippocampal gyrus	0.0
+MSBB :: superior temporal gyrus	MSBB :: inferior frontal gyrus	0.0
+MSBB :: superior temporal gyrus	Mayo :: cerebellum	0.0
+MSBB :: superior temporal gyrus	 GSE125583 :: fusiform gyrus	0.0
+MSBB :: superior temporal gyrus	MSBB :: superior temporal gyrus	1.0

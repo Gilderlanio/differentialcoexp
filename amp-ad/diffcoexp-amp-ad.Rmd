@@ -11,9 +11,7 @@ library("diffcoexp")
 library("ggpubr")
 library("pheatmap")
 library("dplyr")
-
-
-hgnc <- read.csv("scritps-aux/hgnc_complete_set.txt", sep = "\t")
+library("igraph")
 
 ```
 
@@ -49,15 +47,30 @@ mayo.exp$feature <- NULL
 # DLPFC : dorsolateral prefrontal cortex
 # PCC : posterior cingulate cortex
 
-rosmap <- read.csv("original_data/ROSMAP_Covariates_ages_censored.tsv", sep = "\t")
-rosmap <- unique(rosmap[, c("specimenID", "tissue", "diagnosis")])
-rosmap <- rosmap[rosmap$diagnosis %in% c("CT", "AD"),]
-rosmap <- rosmap[rosmap$tissue != "",]
-rosmap[rosmap$diagnosis == "CT", ]$diagnosis <- "CN"
+# Cases: 
+#  BRAAK Score > 3 
+#  CERAD < 3
+# **and** 
+# CogDX (cognitive diagnosis of probable AD with no other causes) = 4 
+# 
+# Controls: 
+#  BRAAK l < 4
+#  CERAD > 2
+# **and** 
+# CogDX (cognitive diagnosis of ‘no cognitive impairment’)  = 1 
+
+rosmap <- read.csv("original_data/RNAseq_Harmonization_ROSMAP_combined_metadata.csv")
+rosmap <- unique(rosmap[, c("specimenID", "tissue", "ceradsc", "braaksc", "cogdx")])
 rosmap <- na.omit(rosmap)
+rosmap <- rosmap[rosmap$tissue != "",]
+rosmap$diagnosis <- NA
+rosmap[rosmap$ceradsc < 3 & rosmap$braaksc > 3 & rosmap$cogdx == 4, ]$diagnosis <- "AD"
+rosmap[rosmap$ceradsc > 2 & rosmap$braaksc < 4 & rosmap$cogdx == 1, ]$diagnosis <- "CN"
+rosmap <- na.omit(rosmap)
+table(rosmap$tissue, rosmap$diagnosis)
 write.table(rosmap, "sample_tissue_diag_data/AMPAD_ROSMAP_Samples.txt",
             row.names = F, sep = "\t", quote = F)
-table(rosmap$tissue, rosmap$diagnosis)
+
 
 rosmap.exp <- read.csv("original_data/ROSMAP_Filtered_counts_(greater_than_1cpm).tsv", sep = "\t", check.names = F)
 rownames(rosmap.exp) <- rosmap.exp$feature
@@ -65,25 +78,22 @@ rosmap.exp$feature <- NULL
 
 ```
 
-
 ```{r}
 
 # CERAD criteria is defined as 1 = normal, 2 = definite AD, 3 = Probable AD, 4 = possible AD
 # https://www.sciencedirect.com/science/article/pii/B978012804832000002X
 
 msbb <- read.csv("original_data/RNAseq_Harmonization_MSBB_combined_metadata.csv")
-msbb <- unique(msbb[, c("specimenID", "tissue", "CDR", "CERAD")])
+msbb <- unique(msbb[, c("specimenID", "tissue", "CDR", "CERAD", "Braak")])
 msbb <- na.omit(msbb)
 msbb$diagnosis <- "X"
-msbb[msbb$CERAD == 1, ]$diagnosis <- "CN"
-msbb[msbb$CERAD == 2, ]$diagnosis <- "AD"
-msbb[msbb$CERAD == 3, ]$diagnosis <- "Prob AD"
-msbb[msbb$CERAD == 4, ]$diagnosis <- "Poss AD"
 
-write.table(msbb, "sample_tissue_diag_data/AMPAD_MSBB_Samples.txt",
-            row.names = F, sep = "\t", quote = F)
+msbb[msbb$CERAD == 2, ]$diagnosis <- "AD"
+msbb[msbb$CERAD == 1, ]$diagnosis <- "CN"
 
 table(msbb$tissue, msbb$diagnosis)
+write.table(msbb, "sample_tissue_diag_data/AMPAD_MSBB_Samples.txt",
+            row.names = F, sep = "\t", quote = F)
 
 msbb.exp <- read.csv("original_data/MSBB_Filtered_counts_(greater_than_1cpm).tsv", sep = "\t", check.names = F)
 rownames(msbb.exp) <- msbb.exp$feature
@@ -101,16 +111,34 @@ split.data("AMPAD_MSBB", msbb, msbb.exp, "counts", hgnc)
 
 ```{r}
 source("scritps-aux/filtering_pipeline.R")
-
+hgnc <- read.csv("scritps-aux/hgnc_complete_set.txt", sep = "\t")
 target.genes <- read.table("../counts/GSE125583_DiffCoexpInput.txt", header = T, sep = "\t")
 target.genes <- rownames(target.genes) 
 
 diff.coexp("AMPAD_Mayo", mayo, mayo.exp, "results", hgnc, target.genes)
-diff.coexp("AMPAD_ROSMAP", rosmap, rosmap.exp, "results", hgnc, target.genes)
 diff.coexp("AMPAD_MSBB", msbb, msbb.exp, "results", hgnc, target.genes)
+diff.coexp("AMPAD_ROSMAP", rosmap, rosmap.exp, "results", hgnc, target.genes)
+
 ```
 
 ```{r}
+dcg_result_files <- list.files("results/", pattern = "_DCGs.txt", full.names = T)
+all.dcgs <- NULL
+for (res_file in dcg_result_files) {
+  filename <- str_split(res_file, "_", simplify = T)
+  project <- filename[2]
+  tissue <- filename[3]
+  dcgs <- read.csv(res_file, sep = "\t")
+  if (nrow(dcgs) > 0) {
+    dcgs$Project <- project
+    dcgs$Tissue <- tissue
+    all.dcgs <- rbind(all.dcgs, dcgs, deparse.level = T)
+  }
+}
 
+write.table(all.dcgs, "results/all_dcgs.txt", sep = "\t", quote = F, row.names = F)
+all.dcgs <- all.dcgs[, c("Gene", "Tissue")]
+write.table(all.dcgs, "results/edges_dcgs.csv", sep = ",", quote = F, row.names = F)
+write.table(all.dcgs, "results/all_dcgs.txt", sep = "\t", quote = F, row.names = F)
 ```
 

@@ -1,0 +1,36 @@
+Mayo :: temporal cortex	Mayo :: temporal cortex	1.0
+Mayo :: temporal cortex	MSBB :: parahippocampal gyrus	1.0
+Mayo :: temporal cortex	MSBB :: inferior frontal gyrus	1.0
+Mayo :: temporal cortex	Mayo :: cerebellum	1.0
+Mayo :: temporal cortex	 GSE125583 :: fusiform gyrus	1.0
+Mayo :: temporal cortex	MSBB :: superior temporal gyrus	1.0
+MSBB :: parahippocampal gyrus	Mayo :: temporal cortex	1.0
+MSBB :: parahippocampal gyrus	MSBB :: parahippocampal gyrus	1.0
+MSBB :: parahippocampal gyrus	MSBB :: inferior frontal gyrus	1.0
+MSBB :: parahippocampal gyrus	Mayo :: cerebellum	1.0
+MSBB :: parahippocampal gyrus	 GSE125583 :: fusiform gyrus	1.0
+MSBB :: parahippocampal gyrus	MSBB :: superior temporal gyrus	1.0
+MSBB :: inferior frontal gyrus	Mayo :: temporal cortex	1.0
+MSBB :: inferior frontal gyrus	MSBB :: parahippocampal gyrus	1.0
+MSBB :: inferior frontal gyrus	MSBB :: inferior frontal gyrus	1.0
+MSBB :: inferior frontal gyrus	Mayo :: cerebellum	1.0
+MSBB :: inferior frontal gyrus	 GSE125583 :: fusiform gyrus	1.0
+MSBB :: inferior frontal gyrus	MSBB :: superior temporal gyrus	1.0
+Mayo :: cerebellum	Mayo :: temporal cortex	1.0
+Mayo :: cerebellum	MSBB :: parahippocampal gyrus	1.0
+Mayo :: cerebellum	MSBB :: inferior frontal gyrus	1.0
+Mayo :: cerebellum	Mayo :: cerebellum	1.0
+Mayo :: cerebellum	 GSE125583 :: fusiform gyrus	1.0
+Mayo :: cerebellum	MSBB :: superior temporal gyrus	1.0
+ GSE125583 :: fusiform gyrus	Mayo :: temporal cortex	1.0
+ GSE125583 :: fusiform gyrus	MSBB :: parahippocampal gyrus	1.0
+ GSE125583 :: fusiform gyrus	MSBB :: inferior frontal gyrus	1.0
+ GSE125583 :: fusiform gyrus	Mayo :: cerebellum	1.0
+ GSE125583 :: fusiform gyrus	 GSE125583 :: fusiform gyrus	1.0
+ GSE125583 :: fusiform gyrus	MSBB :: superior temporal gyrus	1.0
+MSBB :: superior temporal gyrus	Mayo :: temporal cortex	1.0
+MSBB :: superior temporal gyrus	MSBB :: parahippocampal gyrus	1.0
+MSBB :: superior temporal gyrus	MSBB :: inferior frontal gyrus	1.0
+MSBB :: superior temporal gyrus	Mayo :: cerebellum	1.0
+MSBB :: superior temporal gyrus	 GSE125583 :: fusiform gyrus	1.0
+MSBB :: superior temporal gyrus	MSBB :: superior temporal gyrus	1.0
